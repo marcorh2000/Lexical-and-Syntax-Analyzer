@@ -1,0 +1,1 @@
+int fibo ( int id ) { if ( id = = d l l id = = d ) return id ; else return fibo ( id - d ) + fibo ( id - d ) ; }

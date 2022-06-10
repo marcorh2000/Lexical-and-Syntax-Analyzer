@@ -1,0 +1,15 @@
+A -> I F ( I U ) { B E }
+B -> if ( D ) R U ;
+E -> else R F ( X ) M F ( X ) ;
+I -> int
+F -> fibo
+U -> id
+D -> U = = Z l l U = = Z
+R -> return
+X -> U O Z
+O -> - | M
+M -> +
+Z -> d
+
+
+
