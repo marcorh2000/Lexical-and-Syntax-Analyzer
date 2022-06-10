@@ -3,7 +3,7 @@ import os
 class SintaxAnalyzer:
     def __init__(self, nameFileCode):
         self.nameFileTokens = nameFileCode + '-tokens.txt'
-        self.grammarFile = "gramaticaFibo.txt"
+        self.grammarFile = "fiboGrammar.txt"
     
     def setTokens(self):
         tokensFile = open(self.nameFileTokens)
