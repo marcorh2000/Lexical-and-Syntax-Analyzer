@@ -108,11 +108,11 @@ class LexicalAnalyzer:
                     break
 
         #Este archivo es con los tokens que dio
-        file = open(self.filename + "-tokensFull.txt", "w")
+        file = open('analyzed/' + self.filename + '/' + self.filename + '-tokensFull.txt', "w")
         file.write(resultado)
         file.close()
 
         #Este otro es para que se pueda meter al analizador sintactico
-        file = open(self.filename + "-tokens.txt","w")
+        file = open('analyzed/' + self.filename + '/' + self.filename + "-tokens.txt","w")
         file.write(pal_sinta)
         file.close()
